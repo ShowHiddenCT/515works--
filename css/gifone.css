@@ -1,0 +1,314 @@
+.gifone{
+    width: 100%;
+   height: 1300px;
+   background-color: #5c2d91;  display: flex;
+   flex-direction: column;
+   justify-content:flex-start;
+   align-items: center;
+ 
+}
+.gifone-childone{
+   width: 1200px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+.gifone-childone-onechild{
+   width: 600px;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.gifone-childone-twochild{
+   width: 770px;
+   height: 60px;
+}
+.gifone-childone-twochild p{
+   margin: auto;
+   font-weight: 400;
+   font-size: 1.5em;
+   color: white;
+   text-align: center;
+}
+.gifone-childone-threechild{
+   width: 248px;
+   height: 50px;
+   background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.gifone-childone-fourchild{
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.gifone-childone-threechild-twochild{
+   width: 198px;
+   height: 50px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   border-left: outset;
+   border-left-width: 1px;z-index: 3;
+}
+.gifone-childone-threechild-twochild p{
+   width: 190px;
+   height: 46px;
+   text-align: center;
+   line-height: 46px;
+   font-size: 20px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: transparent;
+}
+.gifone-childone-threechild-twochild::after{
+   content: "›";
+   position: absolute;
+   right:5px;
+   top: 13px;
+   font-size: 20px;
+   transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+}
+.gifone-childone-threechild-twochild-one p{
+   width: 190px;
+   height: 46px;
+   text-align: center;
+   line-height: 46px;
+   font-size: 20px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: transparent;
+}
+.gifone-childone-threechild-twochild-one{
+   width: 200px;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   position: absolute;
+   top: 50px;
+   display: none;
+}
+.gifone-childone-threechild-twochild:hover >.gifone-childone-threechild-twochild-one{
+   display: block;
+}
+.gifone-childone-threechild-twochild p:hover{
+    border-color: #000;
+}
+.gifone-childone-threechild-twochild-two:hover >p{
+   border-color: #000;
+}
+.gifone-childone-threechild-twochild-three:hover >p{
+   border-color: #000;
+}
+.gifone-childone-threechild-twochild-four:hover >p{
+   border-color: #000;
+}
+.gifone-childone-threechild-twochild-two{
+   width: 200px;
+   height: 50px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   box-sizing: border-box; 
+   background-color: white;
+}
+.gifone-childone-threechild-twochild-two::after{
+   content: "\E896";
+   font-family: "VSCOMIcons.woff";
+   right:5px;
+   top: 13px;
+   position: absolute;
+}
+.gifone-childone-threechild-twochild-three{
+   width: 200px;
+   height: 50px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   box-sizing: border-box; 
+}
+.gifone-childone-threechild-twochild-three::after{
+   content: "\E896";
+   font-family: "VSCOMIcons.woff";
+   right:5px;
+   top: 13px;
+   position: absolute;
+}
+.gifone-childone-threechild-twochild-four{
+   width: 200px;
+   height: 50px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+}
+.gifone-childone-threechild-twochild-four::after{
+   content: "\E896";
+   font-family: "VSCOMIcons.woff";
+   right:5px;
+   top: 13px;
+   position: absolute;
+}
+.gifone-childtwo{
+   width: 1200px;
+   height: 676px;
+   position: relative; 
+   z-index: 0;
+}
+.gifone-childtwo-childone{
+   width: 1190px;
+   left: 2px;
+   height: 6px;
+   background-color: black;
+   bottom: 5px;
+   position: absolute;
+   border: solid;
+   border-width: 2px;
+}
+.gifone-childtwo-childone-one{
+   background: #5c2d91;
+   height: 6px;
+   z-index: 1;
+   display:block;
+   animation: mymove 33.9s linear infinite;
+   -moz-animation: mymove 33.9s linear infinite;
+   -webkit-animation: mymove 33.9s linear infinite;
+}
+@keyframes mymove{
+   from{width: 0px;}
+   to{width: 1190px;}
+}
+@-webkit-keyframes mymove{
+   from{width: 0px;}
+   to{width: 1190px;}
+}
+@-moz-keyframes mymove{
+   from{width: 0px;}
+   to{width: 1190px;}
+}
+.gifone-childtwo-childtwo{
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   display: none;
+}
+.gifone-childthree{
+   margin-top: 60px;
+   width: 1200px;
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+}
+.gif-childthree-childone{
+   width: 576px;
+   height: 300px;
+}
+.gif-childthree-childone h2{
+   font-size:  35px;
+   color: white;
+}
+.gif-childthree-childone  p{
+   padding-left: 30px;
+   padding-top: 30px;
+   color: white;
+   position: relative;
+   transition: all .5s linear;
+}
+.gif-childthree-childone p:hover{
+  padding-left: 25px;
+padding-top: 25px;
+}
+.gif-childthree-childone  p::after{
+   content: "";
+   font-family: "MWF-MDL2";
+   position: absolute;
+}
+.gif-childthree-childtwo{
+   width: 546px;
+   height: 300px;
+}
+.gif-childthree-childtwo p{
+   color: white;
+   font-size: 20px;
+   position: relative;
+   margin-left: 30px;
+}
+.gif-childthree-childtwo p::before{
+   content: "\2713";
+   position: absolute;
+   left: -15px;
+}
+.suspend{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgba(0,0,0,.6);
+   top: 45%;
+   left: 48%;
+   z-index: 3;
+}
+.suspendtwo{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgba(0,0,0,.6);
+   z-index: 3;
+   left: 48%;
+   top: 200px;
+}
+.suspendtwo::after,.suspend::after{
+   content: "\E769";
+   font-family:"VSCOMIcons.woff";
+   font-size: 25px;
+   position: absolute;
+   top: 20%;
+   left: 25%;
+   color: white;
+   font-style: normal;
+}
+.broadcast{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgba(0,0,0,.6);
+   top: 45%;
+   left: 48%;
+   z-index: 3;
+}
+.broadcasttwo{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgba(0,0,0,.6);
+   z-index: 3;
+   left: 48%;
+   top: 200px;
+}
+.broadcasttwo::after,.broadcast::after{
+   content: "\E768";
+   font-family:"VSCOMIcons.woff";
+   font-size: 25px;
+   position: absolute;
+   top: 20%;
+   left: 25%;
+   color: white;
+   font-style: normal;
+}

@@ -1,0 +1,72 @@
+.learn-website-main{
+    width: 100%;
+    height: 100px;
+    background-color: #32145a;
+}
+.learn-website{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.learn-website div a{
+    width: 200px;
+    height: 52px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.learn-website div a::before{
+    font-family:"VSCOMIcons.woff";
+    width: 52px;
+    font-size: 30px;
+    border-radius: 50px;
+    height: 52px;
+    background-color: #5c2d91;
+     text-align: center;
+     line-height: 52px;
+     margin-right: 20px;
+}
+.learn-website-childone a::before{
+    content: "\E902";
+}
+.learn-website-childtwo a::before{
+    content: "\EC17";
+}
+.learn-website-childthree a::before{
+    content: "\F22B";
+}
+.learn-website div a div{
+    padding-bottom: 1px;
+}
+.learn-website>div>a:hover>div{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    padding-bottom:0 ;
+}
+.learn-website-childone{width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.learn-website-childtwo{width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.learn-website-childthree{width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face{
+    font-family:"VSCOMIcons.woff";
+    src: url(../字体文件/VSCOMIcons.woff);
+}
+     

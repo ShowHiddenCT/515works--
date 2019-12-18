@@ -1,0 +1,133 @@
+.publish-video-main{
+    width: 100%;
+    height: 800px;
+    background-color: #faf9f8;
+}
+.publish-video{
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+padding-top: 50px;
+}
+.publish-video-childone{
+    width: 1200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2.75em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.publish-video-childtwo{
+    width: 1200px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.smallsign{
+    height: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.smallarrowone{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 40px;
+    left: -80px;
+    text-align: center;
+    line-height: 60px;
+    transition: background-color .5s linear;
+}
+.smallarrowtwo{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 40px;
+    right: -80px;
+    text-align: center;
+    line-height: 60px;
+    transition: background-color .5s linear;
+}
+.smallarrowone::after{
+    content: "\E76B";
+    font-family:"VSCOMIcons.woff";
+    font-size: 25px;
+    color: #000;
+    transition:color .3s linear;
+}
+.smallarrowone:hover:after{
+    color:white;
+}
+.smallarrowone:hover{
+    background-color:gainsboro;
+}
+.smallarrowtwo::after{
+    content: "\E76C";
+    font-family: "VSCOMIcons.woff";
+    font-size: 25px;
+    color: #000;
+    transition:color .3s linear;
+}
+.smallarrowtwo:hover:after{
+    color:white;
+}
+.smallarrowtwo:hover{
+    background-color:gainsboro;
+}
+.hidediv{
+    width: 1200px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+.publish-video-childtwo-childone{
+    width: 4800px;
+    display: flex;
+    justify-content: flex-start;
+    height: 310px;
+    position: absolute;
+}
+.publish-video-childtwo-childtwo{
+    width: 3600px;
+    height: 310px;
+    justify-content: flex-start;
+    display: flex;
+    position: absolute;
+}
+.samewidthheight{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+.sameshape{
+width: 240px;
+height: 300px;
+}
+.samebig{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.samesamll{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+.samecenter{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+}
+.samecenter div{
+    margin-left: 10px;
+    margin-right: 10px;
+}

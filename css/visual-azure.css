@@ -1,0 +1,82 @@
+.visual-azure{
+    width: 100%;
+    height: 500px;
+    background-color: #F4EDFF
+}
+.visual-azure-child{
+    margin: 0 auto;
+    width: 1500px;
+    height: 450px;
+    padding-top: 50px;
+
+}
+.visual-azure-child-one{
+    width: 1500px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.visual-azure-child-one h2{
+    font-size: 2.75rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.visual-azure-child-two{
+    width: 1500px;
+    height: 320px;
+    display: flex;
+    justify-content:space-around;
+}
+.same-azure{
+    width: 300px;
+    height: 320px;
+}
+.one-azure,.two-azure,.three-azure{width: 170px;}
+.four-azure{width: 200px;}
+.same-azure div{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px transparent solid;
+    position: relative;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.same-twoazure div::before{
+    font-family:"VSCOMIcons.woff";
+    position: absolute;
+    display: inline-block;
+    font-size: 40px;
+    left:-50px;
+    color: #5c2d91;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  padding-bottom: 1px;
+}
+.same-twoazure:hover>div{
+    border-bottom: 2px solid #5c2d91;
+     
+}
+.same-twoazure:hover>div::before{
+    color: #0067b7; 
+    padding-bottom: 0%;
+}
+.same-azure p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.same-twoazure{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+.twoazure-one::before{content: "\EB24";}
+.twoazure-two::before{content: "\F3B3";}
+.twoazure-three::before{content: "\EBE8";}
+.twoazure-four::before{content: "\E890";}
