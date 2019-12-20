@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist(响应式开发框架)/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .twocolmenu{
+            width: 300px;
+        }
+        .navbar-default
+        {
+            border-style: none;
+        }
+        a
+        {
+            padding: 10px 20px;
+            color: #000000;
+            font-size: x-small;
+        }
+        .dropdown-menu li a:hover{
+            color: #000000!important;
+        }
+        .back_color_change {
+            height: 30px!important;
+            transition: background-color .5s linear;
+        }
+        .back_color_change:hover
+        {
+            text-decoration: underline!important;
+            background-color: #d2d2d2!important;
+
+        }
+        .differenttype
+        {
+            padding: 5px !important;
+            margin-top: 10px;
+            font-size: x-small !important;
+        }
+        .hover_textline:hover
+        {
+            text-decoration:underline !important;
+        }
+
+        .new-width
+        {
+            width: 800px !important;
+        }
+        .new_stylecolor
+        {
+            background-color: #5C2D91 ;
+        }
+        .text-white
+        {
+            color: white;
+        }
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .small_img
+        {
+            margin: 0 !important;
+            width: 30%;
+        }
+/* <!--@media (min-width:1200px){.container{width: 1200px;}}--> */
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="hover_textline" href="#">Visual Studio</a></li>
+                    <li><a class="hover_textline" href="#">Visual studio 2019</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="hover_textline dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">功能<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="row twocolmenu">
+                              <div class="col-md-6">
+                                <li><a href="#">工作负荷</a></li>
+                                <li><a href="#">移动</a></li>
+                                <li><a href="#">Azure</a></li>
+                                <li><a href="#">Web</a></li>
+                                <li><a href="#">Windows</a></li>
+                                <li><a href="#">游戏</a></li>
+
+                              </div>
+                              <div class="col-md-6">
+                                <li class="h6"><a href="#">技术</a></li>
+                                <li><a href="#">.NET</a></li>
+                                <li><a href="#">python</a></li>
+                                <li><a href="#">Node.js</a></li>
+                                <li><a href="#">C++</a></li>
+                              </div>
+                        </div>
+                       </ul>
+                </li>
+                  <li class="dropdown">
+                    <a href="#" class="hover_textline dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">版本<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="back_color_change" href="#">Visual Studio community</a></li>
+                      <li><a class="back_color_change" href="#">Visual Studio Professional</a></li>
+                      <li><a class="back_color_change" href="#">Visual Studio Enterprise</a></li>  
+                      <li><a class="back_color_change" href="#">比较版本</a></li>
+                      <li><a class="back_color_change" href="#">定价</a></li>
+                    </ul>
+                   
+                  </li>
+                  <li><a class="hover_textline" href="#">下载</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="hover_textline dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">支持<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="back_color_change" href="#">获得支持</a></li>
+                      <li><a class="back_color_change" href="#">开始使用</a></li>
+                      <li><a class="back_color_change" href="#">博客</a></li>
+                    </ul> 
+                  </li>
+                  <li><a class="hover_textline" href="#">订阅者</a></li>
+                  <li><a class="hover_textline differenttype btn btn-default" href="#">免费Visual Studio</a></li>
+                </ul>
+
+                
+                <ul class="nav navbar-nav navbar-right">
+                 
+                  <li class="dropdown">
+                    <a href="#" class="hover_textline dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">所有Microsoft<span class="caret"></span></a>
+                    <ul class="dropdown-menu new-width">
+                      <div class="row">
+                        <div class="col-md-2"><li><a href="#">Microsoft 365</a></li></div>
+                        <div class="col-md-2"><li><a href="#">Azure</a></li></div>
+                        <div class="col-md-2"><li><a href="#">office 365</a></li></div>
+                        <div class="col-md-2"><li><a href="#">Dymanic 365</a></li></div>
+                        <div class="col-md-2"><li><a href="#">SQL</a></li></div>
+                        <div class="col-md-2"><li><a href="#">Windows 10</a></li></div>
+                        <li role="separator" class="divider"></li>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-md-2">
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </div>
+                        <li role="separator" class="divider"></li>
+                      </div>
+<div class="row text-center">
+    <li><a href="#">Separated link</a></li>
+</div>
+                     
+                     
+                    </ul>
+                  </li>
+                  <li><a class="hover_textline" href="#">搜索<span class="glyphicon glyphicon-search"></span></a></li>
+                  <!-- <div class="row col-md-8">
+                  <form class="navbar-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                </form>
+            </div>  -->
+                  <li><a href="#">sign in <img class="small_img" src="../VisualStudio/img/sign in.png" alt=""></a>
+               </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+</div>
+<div class="container-fluid new_stylecolor">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 text-center">
+<p class="h1 text-white">Visual Studio 2019</p>
+<p class="h2 text-white">更快地进行代码编写。 更智能地执行操作。 使用同类最佳 IDE 创建未来。</p>
+        </div>
+        <div class="col-md-12">
+            <img src="../VisualStudio/img/combined-gif2sl.gif" alt="">
+        </div>
+        <div class="col-md-12">
+             <div class="container-fluid">
+                 <div class="col-md-6">
+                     <p class="h4 text-white">使用从初始设计到最终部署的完整工具集进行开发</p>
+                 </div>
+                 <div class="col-md-6">
+                     <p class="glyphicon glyphicon-ok col-md-12 text-white">改进了 C++ 文件的 IntelliSense 性能</p>
+                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>使用多个常用仿真程序进行本地开发</p>
+                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>简化了解决方案资源管理器中的测试访问</p>
+                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>IDE 中的 Git 管理和存储库创建</p>
+                     <p class="glyphicon glyphicon-ok col-md-12 text-white">Kubernetes 支持现在包含在 Microsoft Azure 工作负载中</p>
+                 </div>
+                 <div class="col-md-6"></div>
+             </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="../bootstrap-3.3.7-dist(响应式开发框架)/js/bootstrap.min.js"></script>
+</body>
+</html>
