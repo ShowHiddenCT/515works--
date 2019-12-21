@@ -4,67 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist(响应式开发框架)/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <title>Document</title>
     <style>
-        .twocolmenu{
-            width: 300px;
-        }
-        .navbar-default
-        {
-            border-style: none;
-        }
-        a
-        {
-            padding: 10px 20px;
-            color: #000000;
-            font-size: x-small;
-        }
-        .dropdown-menu li a:hover{
-            color: #000000!important;
-        }
-        .back_color_change {
-            height: 30px!important;
-            transition: background-color .5s linear;
-        }
-        .back_color_change:hover
-        {
-            text-decoration: underline!important;
-            background-color: #d2d2d2!important;
+      .navbar
+      {
+        margin: 0px;
 
-        }
-        .differenttype
-        {
-            padding: 5px !important;
-            margin-top: 10px;
-            font-size: x-small !important;
-        }
-        .hover_textline:hover
-        {
-            text-decoration:underline !important;
-        }
+      }
+      .twocolmenu
+      {
+        width: 300px;
+      }
+      .navbar-default
+      {
+        border-style: none;
+      }
+      a
+      {
+        padding: 10px 20px;
+        color: #000000;
+        font-size: x-small;
+      }
+      .dropdown-menu li a:hover{
+        color: #000000!important;
+      }
+      .back_color_change {
+        height: 30px!important;
+        transition: background-color .5s linear;
+      }
+      .back_color_change:hover
+      {
+        text-decoration: underline!important;
+        background-color: #d2d2d2!important;
 
-        .new-width
-        {
-            width: 800px !important;
-        }
-        .new_stylecolor
-        {
-            background-color: #5C2D91 ;
-        }
-        .text-white
-        {
-            color: white;
-        }
-        img{
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .small_img
-        {
-            margin: 0 !important;
-            width: 30%;
-        }
+      }
+      .differenttype
+      {
+        padding: 5px !important;
+        margin-top: 10px;
+        font-size: x-small !important;
+      }
+      .hover_textline:hover
+      {
+        text-decoration:underline !important;
+      }
+
+      .new-width
+      {
+        width: 800px !important;
+      }
+      .new_stylecolor
+      {
+        background-color: #5C2D91 ;
+      }
+      .text-white
+      {
+        color: white;
+      }
+      img{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .small_img
+      {
+        margin: 0 !important;
+        width: 30%;
+      }
+      .font_sizesm
+      {
+        font-size: x-small;
+      }
+      .margin_add
+      {
+        margin-bottom:20px !important;
+      }
+      .float_margin
+      {
+        float: left !important;
+        margin-top: 25px;
+        padding-top: 5px !important;
+        padding-left: 30px !important;
+        transition: all .5s linear !important;
+        
+      }
+      .float_margin:hover
+      {
+        padding-top: 0px !important;
+        padding-left: 25px !important;
+      }
+
 /* <!--@media (min-width:1200px){.container{width: 1200px;}}--> */
     
     </style>
@@ -236,14 +265,17 @@
                  <div class="col-md-6">
                      <p class="h4 text-white">使用从初始设计到最终部署的完整工具集进行开发</p>
                  </div>
-                 <div class="col-md-6">
-                     <p class="glyphicon glyphicon-ok col-md-12 text-white">改进了 C++ 文件的 IntelliSense 性能</p>
-                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>使用多个常用仿真程序进行本地开发</p>
-                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>简化了解决方案资源管理器中的测试访问</p>
-                     <p class="col-md-12 text-white"><span class="glyphicon glyphicon-ok"></span>IDE 中的 Git 管理和存储库创建</p>
-                     <p class="glyphicon glyphicon-ok col-md-12 text-white">Kubernetes 支持现在包含在 Microsoft Azure 工作负载中</p>
+                 <div class="col-md-6" style=" float: right !important">
+                     <p class="glyphicon glyphicon-ok col-md-12 text-white font_sizesm margin_add">改进了 C++ 文件的 IntelliSense 性能</p>
+                     <p class="col-md-12 text-white glyphicon glyphicon-ok font_sizesm margin_add">使用多个常用仿真程序进行本地开发</p>
+                     <p class="col-md-12 text-white glyphicon glyphicon-ok font_sizesm margin_add">简化了解决方案资源管理器中的测试访问</p>
+                     <p class="col-md-12 text-white glyphicon glyphicon-ok font_sizesm margin_add">IDE 中的 Git 管理和存储库创建</p>
+                     <p class="glyphicon glyphicon-ok col-md-12 text-white font_sizesm margin_add">Kubernetes 支持现在包含在 Microsoft Azure 工作负载中</p>
                  </div>
-                 <div class="col-md-6"></div>
+                 <div class="col-md-6 float_margin">
+                   <p class=" font_sizesm text-white">新增内容<span class="glyphicon glyphicon-chevron-right"></span></p>
+                   <p  class=" font_sizesm text-white">Visual studio 预览<span class="glyphicon glyphicon-chevron-right"></span></p>
+                 </div>
              </div>
         </div>
     </div>
@@ -255,6 +287,6 @@
 
 </div></div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script src="../bootstrap-3.3.7-dist(响应式开发框架)/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
